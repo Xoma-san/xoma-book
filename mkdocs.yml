@@ -8,7 +8,10 @@ theme:
     - navigation.tabs
 nav:
   - Главная: index.md
-  - ГОСТы: GOST.md
+  - ГОСТы: 
+    - Общие правила: GOST/GOST-svod.md
+    - Оформление по ГОСТ 2, 19, 7.32, 7.0.97: GOST/GOST-srav.md
+    - Полезная информация: GOST/GOST-dop.md
   - Шаблоны: 
       - Описание применения: Opisanie-primenenia.md
       - Описание программы: Opisanie-programmi.md
@@ -23,7 +26,12 @@ nav:
   - Инструменты: Tools.md
   - О людях: about.md
 
+plugins:
+ - glightbox
+
 markdown_extensions:
  - pymdownx.superfences
+ - attr_list
+ - md_in_html
 extra_css:
   - material-styles.css
