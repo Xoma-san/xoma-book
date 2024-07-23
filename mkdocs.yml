@@ -26,6 +26,9 @@ nav:
   - Инструменты: Tools.md
   - О людях: about.md
 
+plugins:
+ - glightbox
+
 markdown_extensions:
  - pymdownx.superfences
  - attr_list
