@@ -13,10 +13,12 @@ nav:
     - Общие правила: GOST/GOST-svod.md
     - Оформление по ГОСТ 2, 19, 7.32, 7.0.97: GOST/GOST-srav.md
     - Полезная информация: GOST/GOST-dop.md
-  - Шаблоны: 
-      - Описание применения: Opisanie-primenenia.md
-      - Описание программы: Opisanie-programmi.md
-      - Формуляр: Formular.md
+  - Документация: 
+      - Перечень шаблонов: Template/Spisok.md
+      - Превью шаблонов:
+        - Описание применения: Template/Opisanie-primenenia.md
+        - Описание программы: Template/Opisanie-programmi.md
+        - Формуляр: Template/Formular.md
   - Git с "нуля", если ты "ноль": 
       - Перед началом знакомства: git/Git-help-do.md
       - Полезная информация: git/Git-help-sprav.md
