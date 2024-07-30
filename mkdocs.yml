@@ -6,6 +6,7 @@ theme:
   language: ru
   features: 
     - navigation.tabs
+    - search.suggest
 nav:
   - Главная: index.md
   - ГОСТы: 
@@ -25,9 +26,6 @@ nav:
   - Библиотека: libs.md
   - Инструменты: Tools.md
   - О людях: about.md
-
-plugins:
- - glightbox
 
 markdown_extensions:
  - pymdownx.superfences
