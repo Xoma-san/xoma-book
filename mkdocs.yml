@@ -15,10 +15,21 @@ nav:
     - Полезная информация: GOST/GOST-dop.md
   - Документация: 
       - Перечень шаблонов: Template/Spisok.md
-      - Превью шаблонов:
-        - Описание применения: Template/Opisanie-primenenia.md
+      - Превью шаблонов программной документации:
+        - Спецификация: Template/Specifikacia.md
+        - Текст программы: Template/Tekst.md
         - Описание программы: Template/Opisanie-programmi.md
+        - Ведомость эксплуатационных документов: Template/VED.md
         - Формуляр: Template/Formular.md
+        - Описание применения: Template/Opisanie-primenenia.md
+        - Руководство оператора: Template/ROP.md
+        - Инструкция по сборке: Template/Sborka.md
+        - Инструкция по установке: Template/Ustanovka.md
+        - Технические условия: Template/TU.md
+      - Превью шаблонов конструкторской документации:
+        - Программа и методики предварительных испытаний: Template/PMI.md
+        - Программа опытной эксплуатации: Template/POE.md
+        - Программа и методики приемочных испытаний: Template/PSI.md
   - Git с "нуля", если ты "ноль": 
       - Перед началом знакомства: git/Git-help-do.md
       - Полезная информация: git/Git-help-sprav.md
@@ -33,6 +44,9 @@ markdown_extensions:
  - pymdownx.superfences
  - attr_list
  - md_in_html
+ - admonition
+ - pymdownx.details
+ - pymdownx.superfences
 
 plugins:
  - glightbox
