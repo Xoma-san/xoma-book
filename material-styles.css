@@ -1,0 +1,22 @@
+.md-header {
+	--md-primary-fg-color: #FFFFFF;
+	--md-primary-bg-color: #3E0867;
+}
+.md-header__button.md-logo img,.md-header__button.md-logo svg {
+    fill: currentcolor;
+    display: block;
+    height: 2rem;
+    width: auto
+}
+
+.md-tabs {
+    background-color:  #3e0867a1;
+    color: #FFFFFF;
+	display: block;
+    line-height: 1.0;
+}
+@media screen and (min-width: 60em) {
+    .md-search__form:hover {
+        background-color: #3e086722
+    }
+}
